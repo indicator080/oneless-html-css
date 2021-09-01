@@ -106,9 +106,6 @@
 }
 
 .wrapper .card {
-  display: flex;
-  min-width: 280px;
-  height: 230px;
   line-height: 230px;
   margin-right: 7px;
 }
@@ -319,6 +316,7 @@ footer {
 
 .card {
   color: white;
+  display: flex;
 }
 
 .card-seperate-vertical {
@@ -326,14 +324,27 @@ footer {
 }
 
 .card-seperate-horizontal {
-  min-height: 0;
+  display: flex;
+  flex-direction: column;
+ 
   width: 280px;
-  min-width: none;
   background-color: #444444;
+  justify-content: space-evenly;
+  padding-left: 20px;
+}
+
+.seperator .textContent{
+  margin: auto;
+  
 }
 
 .resize-pic {
   width: 200px;
+}
+
+.buttonCardSperate{
+  background-color: red;
+  padding: 5px 10px;
 }
 
 /* sewa page */
