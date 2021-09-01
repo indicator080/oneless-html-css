@@ -110,13 +110,30 @@
   margin-right: 7px;
 }
 
+.aligned-item {
+  align-items: center;
+}
+
 body {
   font-family: Verdana;
+  overflow-x: hidden;
 }
 
 .button {
   border: none;
   color: white;
+  padding: 22px 58px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-everywhere {
+  border: none;
+  color: #4123fd;
   padding: 22px 58px;
   text-align: center;
   text-decoration: none;
@@ -254,7 +271,7 @@ footer {
 
 /* login page */
 .container {
-  display: inline-flex;
+  display: flex;
 }
 
 #login-image-resize {
@@ -321,34 +338,47 @@ footer {
 
 .card-seperate-vertical {
   background-color: #444444;
+  height: 50%;
 }
 
 .card-seperate-horizontal {
   display: flex;
   flex-direction: column;
- 
+
   width: 280px;
   background-color: #444444;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-left: 20px;
 }
 
-.seperator .textContent{
+.seperator .textContent {
   margin: auto;
-  
 }
 
 .resize-pic {
-  width: 200px;
+  max-width: 200px;
 }
 
-.buttonCardSperate{
-  background-color: red;
+.buttonCardSperate {
+  color: white;
+  outline-style: solid;
+  outline-width: 3px;
+  background-color: rgb(0, 0, 0, 0);
   padding: 5px 10px;
+  text-decoration: none;
 }
 
 /* sewa page */
 .image-resize {
   width: 280px;
   height: 230px;
+}
+
+/* about page */
+.sections {
+  max-width: 800px;
+}
+
+.oneAbout {
+  margin-top: 3px;
 }

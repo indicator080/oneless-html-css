@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Verdana;
+  overflow-x: hidden;
+}
+
+/* positioning */
+.flex {
+  display: flex;
+}
+
+.flex-w-80 {
+  display: flex;
+  width: 1180px;
+}
+
+.width-12per {
+  width: 12.5%;
+}
+
+.width-25per {
+  width: 25%;
+}
+
+.width-33per {
+  width: 33.33%;
+}
+
+.width-custom {
+  width: 48%;
+}
+
+.width-50per {
+  width: 50%;
+}
+
+.width-66per {
+  width: 66.66%;
+}
+
+.width-75per {
+  width: 75%;
+}
+
+.space-vertical-sm {
+  margin-top: 20px;
+}
+
+.space-vertical-md {
+  margin-top: 40px;
+}
+
+.space-vertical-lg {
+  margin-top: 60px;
+}
+
+.space-vertical-lg-lg {
+  margin-top: 110px;
+}
+
+.space-vertical-xl {
+  margin-top: 150px;
+}
+
+.position {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.position-right {
+  position: relative;
+  right: 100px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.button {
+  color: black;
+  max-height: 200px;
+  text-decoration: none;
+}
+
+.marg-left {
+  margin-left: 5vh;
+}
+
+.border {
+  padding-left: 27vh;
+  padding-right: 27vh;
+}
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  filter: drop-shadow(0px 2px 4px grey);
+  height: 70px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  width: 45%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #7748ed;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #4123fd;
+}
+
+.logo {
+  padding: 20vh;
+  width: 50px;
+}
+
+.guest-icon {
+  width: 25px;
+  padding-right: 20vh;
+}
+
+.line-height {
+  line-height: 40px;
+}
+
+/* responsive breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+  nav ul {
+    display: none;
+    width: 50%;
+  }
+}
