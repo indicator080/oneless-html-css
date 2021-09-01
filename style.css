@@ -12,6 +12,11 @@
   display: flex;
 }
 
+.flex-w-80 {
+  display: flex;
+  width: 1180px;
+}
+
 .width-12per {
   width: 12.5%;
 }
@@ -22,6 +27,10 @@
 
 .width-33per {
   width: 33.33%;
+}
+
+.width-custom {
+  width: 48%;
 }
 
 .width-50per {
@@ -48,6 +57,10 @@
   margin-top: 80px;
 }
 
+.space-vertical-lg-lg {
+  margin-top: 110px;
+}
+
 .space-vertical-xl {
   margin-top: 150px;
 }
@@ -62,13 +75,74 @@
   right: 100px;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
+.marg-left {
+  margin-left: 5vh;
+}
+
 .border {
   padding-left: 27vh;
   padding-right: 27vh;
 }
 
+.wrapper {
+  max-height: 230px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.wrapper::-webkit-scrollbar {
+  height: 5px;
+  background-color: #ddd;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+.wrapper .card {
+  display: flex;
+  min-width: 280px;
+  height: 230px;
+  line-height: 230px;
+  margin-right: 7px;
+}
+
 body {
   font-family: Verdana;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 22px 58px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-select-item {
+  border: none;
+  color: white;
+  padding: 14px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-common {
+  background-color: #4123fd;
 }
 
 nav {
@@ -164,6 +238,7 @@ nav ul li a:hover {
 #promo-list {
   display: flex;
   box-sizing: border-box;
+  width: 70%;
 }
 
 /* kategori */
@@ -207,7 +282,7 @@ footer {
 
 #promo-text-position {
   position: relative;
-  left: 500px;
+  text-align: center;
 }
 
 #policy {
@@ -229,7 +304,7 @@ footer {
 }
 
 .promo-content {
-  width: 33.33%;
+  width: 48.33%;
 }
 
 /* kategori page */
@@ -246,10 +321,23 @@ footer {
   color: white;
 }
 
-.card-seperate {
+.card-seperate-vertical {
+  background-color: #444444;
+}
+
+.card-seperate-horizontal {
+  min-height: 0;
+  width: 280px;
+  min-width: none;
   background-color: #444444;
 }
 
 .resize-pic {
   width: 200px;
+}
+
+/* sewa page */
+.image-resize {
+  width: 280px;
+  height: 230px;
 }
