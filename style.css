@@ -114,6 +114,10 @@
   align-items: center;
 }
 
+.overflow-y-hid {
+  overflow-y: hidden;
+}
+
 body {
   font-family: Verdana;
   overflow-x: hidden;

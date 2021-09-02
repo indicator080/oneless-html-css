@@ -19,6 +19,15 @@ body {
   width: 1180px;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-height {
+  line-height: 5px;
+}
+
 .width-12per {
   width: 12.5%;
 }
@@ -81,14 +90,97 @@ body {
   position: absolute;
 }
 
+.input-box {
+  margin: 31px auto;
+  width: 80%;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.input-box input {
+  width: 90%;
+  bottom: none;
+  outline: none;
+  background: transparent;
+  color: black;
+}
+
+.box {
+  /* justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  max-height: 100px;
+  background: linear-gradient(90deg, #4123fd, #7748ed); */
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgb(0, 0, 0, 0)) 7 100%;
+}
+
+/* .gradient-border {
+  position: absolute;
+  background-color: black;
+  height: 93%;
+  width: 93%;
+} */
+
+.flex input {
+  margin-left: 10px;
+}
+
+.name-position {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.align-item-cen {
+  align-items: center;
+}
+
+.resize-profil {
+  width: 70px;
+}
+
+.text-dec-null {
+  text-decoration: none;
+}
+
+.vertical-boundaries {
+  height: 600px;
+  width: 1px;
+  margin: 6vh;
+  background-color: gainsboro;
+}
+
 .button {
   color: black;
   max-height: 200px;
   text-decoration: none;
 }
 
-.marg-left {
+.marg-left-5vh {
   margin-left: 5vh;
+}
+
+.marg-left-22 {
+  margin-left: 22px;
+}
+
+.marg-left-33 {
+  margin-left: 33px;
+}
+
+.textEdit {
+  border: 3px solid black;
+}
+
+.areaTextEdit {
+  position: relative;
+  border: 3px solid black;
+}
+
+.marg-left-170 {
+  margin-left: 170px;
 }
 
 .border {
