@@ -65,6 +65,38 @@
   margin-top: 150px;
 }
 
+.space-vertical-xxl {
+  margin-top: 190px;
+}
+
+.space-horizontal-sm {
+  margin-left: 20px;
+}
+
+.space-horizontal-md {
+  margin-left: 40px;
+}
+
+.space-horizontal-lg {
+  margin-left: 80px;
+}
+
+.space-horizontal-lg-lg {
+  margin-left: 110px;
+}
+
+.space-horizontal-xl{
+  margin-left: 150px;
+}
+
+.space-horizontal-sm-right{
+  margin-right: 30px;
+}
+
+.space-horizontal-lg-lg-left-revers{
+  margin-left: -110px;
+}
+
 .position-left {
   position: relative;
   left: 1028px;
@@ -385,4 +417,42 @@ footer {
 
 .oneAbout {
   margin-top: 3px;
+}
+
+/* studio */
+.container-studio {
+  position: flex;
+  background-color: #f3f3f3;
+  width: 170vh;
+  height: 40vh;
+}
+
+.p-name {
+  font-size: 25px;
+}
+
+.btn{
+  background-color: #4123fd;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.image-resize-studio{
+  width: 80px;
+  padding-right: 20vh;
+}
+
+.garis-studio{
+  max-width: 50px;
+  min-height: 7px;
+  background-color: #4123fd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-bottom: 5px;
 }
