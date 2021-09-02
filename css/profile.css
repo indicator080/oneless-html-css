@@ -124,6 +124,10 @@ body {
   width: 93%;
 } */
 
+.border-boxing-box {
+  box-sizing: border-box;
+}
+
 .flex input {
   margin-left: 10px;
 }
