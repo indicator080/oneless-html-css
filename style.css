@@ -53,6 +53,10 @@
   margin-top: 40px;
 }
 
+.space-vertical-md-lg {
+  margin-top: 60px;
+}
+
 .space-vertical-lg {
   margin-top: 80px;
 }
@@ -63,6 +67,66 @@
 
 .space-vertical-xl {
   margin-top: 150px;
+}
+
+.space-vertical-xxl {
+  margin-top: 190px;
+}
+
+.space-pushBottom-ssm {
+  margin-bottom: 10px;
+}
+
+.space-pushBottom-sm {
+  margin-bottom: 20px;
+}
+
+.space-pushBottom-md {
+  margin-bottom: 40px;
+}
+
+.space-pushBottom-lg {
+  margin-bottom: 60px;
+}
+
+.space-pushBottom-lg-lg {
+  margin-bottom: 110px;
+}
+
+.space-pushBottom-xl {
+  margin-bottom: 150px;
+}
+
+.space-horizontal-sm {
+  margin-left: 20px;
+}
+
+.space-horizontal-md {
+  margin-left: 40px;
+}
+
+.space-horizontal-lg {
+  margin-left: 80px;
+}
+
+.space-horizontal-lg-lg {
+  margin-left: 110px;
+}
+
+.space-horizontal-xl {
+  margin-left: 150px;
+}
+
+.space-horizontal-xxl {
+  margin-left: 200px;
+}
+
+.space-horizontal-sm-right {
+  margin-right: 30px;
+}
+
+.space-horizontal-lg-lg-left-revers {
+  margin-left: -110px;
 }
 
 .position-left {
@@ -111,36 +175,36 @@
 }
 
 .aligned-item {
-  
   position: absolute;
   top: 0;
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  
 }
-.wraperTitle{
+.wraperTitle {
   margin: auto;
 }
-.wraperInput{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+.wraperInput {
+  background: linear-gradient(135deg, #4123fd, #7748ed);
   position: relative;
   margin: auto;
   padding: 4px;
-  width: 304px;
+  min-width: 304px;
+  height: 50px;
   margin-bottom: 40px;
 }
 
-.inputParent{
-  
+.inputParent {
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-.wraperInput>.inputText{
+
+.wraperInput > .inputText {
   position: relative;
-  width: 300px;
+  width: 98%;
+  height: 93%;
 }
 
 .overflow-y-hid {
@@ -299,7 +363,7 @@ nav ul li a:hover {
 footer {
   background-color: #444444;
   width: 73.34%;
-  height: 400px;
+  height: 320px;
 }
 
 /* login page */
@@ -379,6 +443,7 @@ footer {
   flex-direction: column;
 
   width: 280px;
+  height: 180px;
   background-color: #444444;
   justify-content: space-around;
   padding-left: 20px;
@@ -403,8 +468,8 @@ footer {
 
 /* sewa page */
 .image-resize {
-  width: 280px;
-  height: 230px;
+  width: 230px;
+  height: 180px;
 }
 
 /* about page */
@@ -416,4 +481,72 @@ footer {
   margin-top: 3px;
 }
 
+/* studio */
+.container-studio {
+  position: flex;
+  background-color: #f3f3f3;
+  width: 170vh;
+  height: 32vh;
+}
 
+.p-name {
+  font-size: 25px;
+}
+
+.btn {
+  background-color: #4123fd;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.image-resize-studio {
+  width: 80px;
+  padding-right: 20vh;
+}
+
+.garis-studio {
+  max-width: 50px;
+  min-height: 7px;
+  background-color: #4123fd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-bottom: 5px;
+}
+
+/* sewa */
+.input {
+  width: 150px;
+  background: white;
+  border: 4px solid blue;
+  padding: 12px;
+  border-radius: 4px;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input2 {
+  width: 50px;
+  background: white;
+  border: 4px solid blue;
+  padding: 12px;
+  border-radius: 4px;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  outline: none;
+  margin-left: 5px;
+}
+
+.border-radio {
+  border: none;
+}

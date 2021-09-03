@@ -56,6 +56,10 @@ body {
   width: 75%;
 }
 
+.space-vertical-ssm {
+  margin-top: 10px;
+}
+
 .space-vertical-sm {
   margin-top: 20px;
 }
@@ -74,6 +78,34 @@ body {
 
 .space-vertical-xl {
   margin-top: 150px;
+}
+
+.space-pushBottom-ssm {
+  margin-top: 10px;
+}
+
+.space-pushBottom-sm {
+  margin-top: 20px;
+}
+
+.space-pushBottom-md {
+  margin-top: 40px;
+}
+
+.space-pushBottom-lg {
+  margin-top: 60px;
+}
+
+.space-pushBottom-lg-lg {
+  margin-top: 110px;
+}
+
+.space-pushBottom-xl {
+  margin-top: 150px;
+}
+
+.text-size-small {
+  font-size: small;
 }
 
 .position {
@@ -142,7 +174,7 @@ body {
 }
 
 .resize-profil {
-  width: 70px;
+  width: 90px;
 }
 
 .text-dec-null {
@@ -162,8 +194,20 @@ body {
   text-decoration: none;
 }
 
+.resize-upload-button {
+  width: 100px;
+}
+
 .marg-left-5vh {
   margin-left: 5vh;
+}
+
+.marg-left-12 {
+  margin-left: 12px;
+}
+
+.marg-left-16 {
+  margin-left: 16px;
 }
 
 .marg-left-22 {
@@ -174,6 +218,18 @@ body {
   margin-left: 33px;
 }
 
+.marg-left-65 {
+  margin-left: 65px;
+}
+
+.marg-left-170 {
+  margin-left: 170px;
+}
+
+.marg-left-1000 {
+  margin-left: 718px;
+}
+
 .textEdit {
   border: 3px solid black;
 }
@@ -181,10 +237,6 @@ body {
 .areaTextEdit {
   position: relative;
   border: 3px solid black;
-}
-
-.marg-left-170 {
-  margin-left: 170px;
 }
 
 .border {
@@ -244,4 +296,16 @@ nav ul li a:hover {
     display: none;
     width: 50%;
   }
+}
+
+.select-highlight-half1 {
+  width: 70px;
+  height: 6px;
+  background-color: #4123fd;
+}
+
+.select-highlight-half2 {
+  width: 70px;
+  height: 6x;
+  background-color: #7748ed;
 }

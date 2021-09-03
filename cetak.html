@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navigation bar -->
     <nav>
         <div class="logo">
             <img src="images/logo.png" alt="logo image">
@@ -20,7 +21,7 @@
             <li><a href="./aboutus.html">About Us</a></li>
         </ul>
         <div>
-            <a href="./login.html">
+            <a href="./profile/customers/customerProfil.html">
                 <img src="images/guest-icon.svg" class="guest-icon" alt="guest icon">
             </a>
         </div>
@@ -29,14 +30,46 @@
     <div class="border space-vertical-lg-lg">
         <p><big><big>Cetak</big></big></p>
         <hr class="space-vertical-sm">
-        <div class="space-vertical-md flex">
-            <div class="space-vertical-sm"><p>Studio</p></div>
-            <!-- <button class="button button-common"></button> -->
-            <form class="marg-left">
-                <select class="button-select-item button-common" id="studio">
-                    <option value="default">- Pilih -</option>
-                </select>
-            </form>
-        </div>
+        <form class="space-vertical-md ">
+            <div class="flex">
+                <div class="space-vertical-sm">Studio</div>
+                <div class="space-horizontal-lg-lg">
+                    <select class="button-select-item button-common" id="studio">
+                        <option value="default">- Pilih -</option>
+                        <option value="1">Lynx Studio</option>
+                    </select>
+                </div>
+
+                <div class="space-vertical-sm space-horizontal-lg">Ukuran x Jumlah</div>
+                <div class="marg-left">
+                    <input class="input">
+                    <input class="input2" placeholder="0">
+                </div>
+            </div>
+            <div class="space-vertical-md">Upload Foto disni:
+                <input class="input space-horizontal-sm" type="file">
+            </div>
+            <div class="space-vertical-md">Bingkai
+                <fieldset class="space-horizontal-xl border-radio" id="group1">
+                    <img src="images/bingkai1 1.png" alt="bingka1" for="bingkai1">
+                    <input type="radio" valaue="bingkai1" id="bingkai1" class="space-horizontal-sm" name="group1">
+                    <img src="images/bingkai1 1.png" alt="bingka2" for="bingkai2" class="space-horizontal-sm">
+                    <input type="radio" valaue="bingkai2" id="bingkai2" class="space-horizontal-sm" name="group1">
+                </fieldset>
+            </div>
+            <div class="space-vertical-md">Pengiriman:
+                <fieldset class="space-horizontal-xl border-radio" id="group1">
+                    <label for="radio1">None</label>
+                    <input type="radio" valaue="radio1" id="radio1" class="space-horizontal-sm" name="group1">
+                    <img src="images/jne-logo 1.png" alt="bingka2" for="bingkai2" class="space-horizontal-sm">
+                    <input type="radio" valaue="bingkai2" id="bingkai2" class="space-horizontal-sm" name="group1">
+                </fieldset>
+            </div>
+            <div class="space-vertical-md">
+                <label for="Harga">Harga:</label>
+                <input type="text" placeholder="-" id="Harga" class="border-radio">
+            </div>
+            <button class="btn space-vertical-sm">Pesan</button>
+        </form>
 </body>
 </html>
