@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo image" />
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./studio.html">Studio</a></li>
+        <li><a href="./promo.html">Promo</a></li>
+        <li><a href="./kategori.html">Kategori</a></li>
+        <li><a href="./sewa.html">Sewa</a></li>
+        <li><a href="./cetak.html">Cetak</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+      </ul>
+      <div>
+        <a href="./profile/customers/customerProfil.html">
+          <img
+            src="images/guest-icon.svg"
+            class="guest-icon"
+            alt="guest icon"
+          />
+        </a>
+      </div>
+    </nav>
+    <div class="container-kelolaProduk">
+      <div class="input-form">
+        <input
+          id="namaProduk"
+          placeholder="masukan nama produk"
+          class="input-title"
+        />
+        <select class="form-select" id="katalog">
+          <option selected="">Pilih katalog</option>
+          <option value="1">Cetak</option>
+          <option value="2">Kategori</option>
+          <option value="3">Promo</option>
+          <option value="4">Sewa</option>
+        </select>
+        <select class="form-select" id="kategori">
+          <option selected="">Pilih Kategori</option>
+          <option value="1">Birthday</option>
+          <option value="2">Family</option>
+          <option value="3">Filming</option>
+          <option value="4">Graduation</option>
+          <option value="5">Nature</option>
+          <option value="6">Wedding</option>
+          <option value="7">Travel</option>
+          <option value="8">Pas Foto</option>
+        </select>
+        <textarea
+          id="deskripsi"
+          placeholder="Masukan Deskripsi"
+          class="input-content"
+        ></textarea>
+        <textarea
+          id="inklusi"
+          placeholder="Masukan Inklusi"
+          class="input-content"
+        ></textarea>
+        <input id="harga" placeholder="Masukan Harga" class="input-title" />
+        <img src="http://via.placeholder.com/400x300" alt="">
+        <input
+          type="file"
+          id="FotoProduk"
+          placeholder="input Foto Produk"
+          class="input-title space-vertical-sm"
+          accept="image/*"
+        />
+        
+        <button class="btn">Buat</button>
+      </div>
+    </div>
+  </body>
+</html>

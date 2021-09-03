@@ -550,3 +550,58 @@ footer {
 .border-radio {
   border: none;
 }
+
+/* kelolaProduk */
+.container-kelolaProduk {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-title {
+  width: 40%;
+  background: white;
+  border: 3px solid blue;
+  padding: 12px;
+  /* border-radius: 4px; */
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input-content {
+  width: 40%;
+  border: 3px solid blue;
+  /* border-radius: 4px; */
+  box-sizing: border-box;
+  padding: 12px;
+  min-height: 200px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: gray;
+  outline: none;
+}
+
+.form-select {
+  width: 40%;
+  background: white;
+  border: 3px solid blue;
+  padding: 12px;
+  /* border-radius: 4px; */
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  outline: none;
+}
